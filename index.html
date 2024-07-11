@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Тестовое задание (Progress Block)</title>
+</head>
+<body>
+    <!-- используем тег aside, т.к. прогресс-бар и действия связаны с контентом страницы, на котором он будет помещён -->
+    <aside class="progress_block">
+        <div class="progress_block__progress_bar">
+            <div class="progress_block__progress_bar__inner">
+                <span class="progress_block__progress_bar__inner__progress">
+                    0/7
+                </span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-linecap="round" width="60" height="60" class="progress_block__progress_bar__svg">
+                <circle class="progress_block__progress_bar__svg__circle" cx="30" cy="30" r="29"></circle>
+            </svg>
+        </div>
+        <div class="progress_block__middle_block">
+            <div class="progress_block__middle_block__tag">Чеклист</div>
+            <p class="progress_block__middle_block__title">Выполнено: 0 из 7 действий</p>
+            <p class="progress_block__middle_block__text">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</p>
+        </div>
+        <a class="progress_block__action"" href="https://hh.ru/applicant/resumes/view?resume=9421cb17ff0d62d8fc0039ed1f4a514e5a396b">Открыть чеклист</a>
+    </aside>
+</body>
+</html>
